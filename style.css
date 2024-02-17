@@ -15,6 +15,7 @@
         font-family: Consolas, monaco, monospace;
     }
     footer {
+        padding-top: 100px;
         color: white;
         text-align: center;
         margin-bottom: 0;
@@ -22,6 +23,8 @@
       }
     .story{
         margin-left: 200px;
+        margin-top: 150px;
+        margin-bottom:250px;
         margin-right: 200px;
         color: white;
         height: 900px;
@@ -65,7 +68,7 @@
       
       /* Add a background color on hover */
       .button:hover {
-        background-color: #10844D;
+        background-color: #7b44f2;
         color: white;
       }
       .auto-type {

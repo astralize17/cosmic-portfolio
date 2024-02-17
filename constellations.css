@@ -1,11 +1,9 @@
-body {
+body{
     background-size: cover;
     font-family: Consolas, monaco, monospace;
     color: white;
-    background-color: black;
-    /* background-image: url("https://i.pinimg.com/originals/ea/52/b3/ea52b349ea3fb2e8011057f2d8794499.jpg"); */
+    background-image: url("/Users/elizabethcoleman/general computer projects/cosmic portfolio/cosmic-portfolio/design.jpg");
 }
-
 footer {
     color: white;
     text-align: center;
@@ -42,31 +40,3 @@ footer {
     background-color: #7b44f2;
     color: white;
   }
-
-   .slider-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.slider {
-    overflow: hidden; 
-    width: 100%;  
-    height: 300px;
-    position: relative;  
-}
-
-.slider img {
-    width: auto; 
-    height: 100%;  
-    position: absolute; 
-    top: 0;
-    left: 0;
-    transition: opacity 0.5s ease; 
-}
-
-.prev-btn,
-.next-btn {
-    margin-top: 10px;
-} 
