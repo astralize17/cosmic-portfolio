@@ -1,1 +1,27 @@
-
+    /* CSS styles go here */
+    body {
+        background-size: cover;
+        background-image: url("https://i.pinimg.com/originals/23/93/d3/2393d33fc07eae9e0cbac9d6a44b7265.jpg");
+    }
+    header {
+        color: #fff;
+        padding: 200px;
+        text-align: center;
+    }
+    main {
+        padding: 20px;
+    }
+    footer {
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+      }
+    .story{
+        margin-left: 200px;
+        margin-right: 200px;
+        color: white;
+        height: 900px;
+    }
