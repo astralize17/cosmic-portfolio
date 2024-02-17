@@ -1,0 +1,12 @@
+body{
+    background-size: cover;
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    background-image: url("/Users/elizabethcoleman/general computer projects/cosmic portfolio/cosmic-portfolio/design.jpg");
+}
+footer {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: Consolas, monaco, monospace;
+  }
