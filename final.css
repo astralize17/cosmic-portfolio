@@ -3,23 +3,20 @@ body{
     background-size: cover;
     font-family: Consolas, monaco, monospace;
     color: white;
-    /* background-image: url("https://i.pinimg.com/originals/d1/52/aa/d152aacaad619e8b86cceabdd0672fac.jpg");*/
-     background-image: url("https://i.pinimg.com/originals/c8/2b/81/c82b81864298d421cbb011145e7871fd.jpg"); 
-} 
+    background-color: black;
+    } 
 footer {
     color: white;
     text-align: center;
     margin-bottom: 0;
     font-family: Consolas, monaco, monospace;
   }
-  .button{
-    position: sticky;
-    background-color: none; 
+  .button {
+    background-color: none;
     border: none;
     color: white; /* White text */
     padding: 10px 7px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    float: right; /* Float the buttons side by side */
     font-size: 20px;
     text-decoration: none;
     height: 19px;
@@ -30,16 +27,9 @@ footer {
     border-right: none; /* Prevent double borders */
   }
   
-  /* Clear floats (clearfix hack) */
-  .button:after {
-    content: "";
-    clear: both;
-    display: none;
-  }
-  
   /* Add a background color on hover */
   .button:hover {
-    background-color:  #7b44f2;
+    background-color: #7b44f2;
     color: white;
   }
   .card-container {

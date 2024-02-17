@@ -24,11 +24,11 @@
     .story{
         margin-left: 200px;
         margin-top: 150px;
-        margin-bottom:250px;
+        margin-bottom:450px;
         margin-right: 200px;
         color: white;
         height: 900px;
-        font-size: 20px;
+        font-size: 17px;
     }
     .header{
         border-bottom: 1px solid #000000;
@@ -41,14 +41,12 @@
       .sticky + .body {
         padding-top: 60px;
       }
-      .button{
-        position: sticky;
-        background-color: none; 
+      .button {
+        background-color: none;
         border: none;
         color: white; /* White text */
         padding: 10px 7px; /* Some padding */
         cursor: pointer; /* Pointer/hand icon */
-        float: right; /* Float the buttons side by side */
         font-size: 20px;
         text-decoration: none;
         height: 19px;
@@ -57,13 +55,6 @@
       
       .button:not(:last-child) {
         border-right: none; /* Prevent double borders */
-      }
-      
-      /* Clear floats (clearfix hack) */
-      .button:after {
-        content: "";
-        clear: both;
-        display: none;
       }
       
       /* Add a background color on hover */
