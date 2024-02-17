@@ -74,4 +74,6 @@
       .auto-type {
         font-size: 24px !important;
     }
-     
+    main {
+      text-align: center; /* Center align main content */
+    }

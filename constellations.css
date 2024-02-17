@@ -2,7 +2,7 @@ body{
     background-size: cover;
     font-family: Consolas, monaco, monospace;
     color: white;
-    background-image: url("/Users/elizabethcoleman/general computer projects/cosmic portfolio/cosmic-portfolio/design.jpg");
+    background-image: url("https://i.pinimg.com/originals/85/6e/df/856edf8c5b37f809625431b1888ec3a4.jpg");
 }
 footer {
     color: white;
@@ -39,4 +39,10 @@ footer {
   .button:hover {
     background-color: #7b44f2;
     color: white;
+  }
+  main {
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center; 
   }

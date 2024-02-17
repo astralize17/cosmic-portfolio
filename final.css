@@ -71,4 +71,6 @@ footer {
     margin: 15px 0;
   }
   
-  
+  main {
+    text-align: center; /* Center align main content */
+  }
